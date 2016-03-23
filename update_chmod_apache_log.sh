@@ -12,7 +12,7 @@ Browse_directory () {
 	
 	for file in `ls -l`; do
 		# Get each line
-		echo "File found : $file"
+		#echo "File found : $file"
 		# Get the first character to identify the type of file
 		first_letter=${file:0:1}
 		# Debug
